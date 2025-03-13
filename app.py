@@ -29,7 +29,7 @@ if reflection:
     st.success(f"✨ Great Insight! Your reflection: {reflection}")
 
 else:
-    st.info("Reflecting on past experience help ypu grow! Share your difficulties")
+    st.info("Reflecting on past experience help you grow! Share your difficulties")
 
 #achievements
 st.header("🏆 Celebrate your win!")
@@ -38,7 +38,7 @@ achievement = st.text_input("Share something you have recently accomplished:")
 if achievement:
     st.success(f"🌟 Amazing! You achieved: {achievement}")
 else:
-    st.info("Big or small, every achievemnt counts! Share one now 😊")
+    st.info("Big or small, every achievement counts! Share one now 😊")
 
 #footer
 st.write("- - -")
